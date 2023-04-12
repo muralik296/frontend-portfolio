@@ -211,6 +211,11 @@ textarea:focus {
 #error-resp{
     color: #ff0000;
 }
+
+#contact i{
+    padding: 10px;
+}
+
 /* Footer section */
 
 footer {
