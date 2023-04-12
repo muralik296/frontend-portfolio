@@ -425,14 +425,21 @@
         loop: true
     });
 
-    typewriter.typeString('Hello World!')
-        .pauseFor(2500)
+    typewriter.typeString('Hello People of the Internet!')
+        .pauseFor(1000)
         .deleteAll()
-        .typeString(`It's Me Maneendra a.k.a <strong>Murali Krishna</strong> ! 😎`)
-        .pauseFor(2500)
+        .typeString(`I am Maneendra a.k.a <strong>Murali Krishna</strong>. A Web Developer`)
+        .pauseFor(1500)
+        .deleteChars(14)
+        .typeString(' <strong>programmer</strong> !')
+        .pauseFor(1000)
+        .deleteChars(14)
+        .typeString('An Indophile')
+        .pauseFor(1000)
+        .deleteChars(12)
+        .typeString('A foodie 😋 !')
+        .pauseFor(1500)
         .deleteAll()
-        .typeString('I am a <strong>programmer</strong> !')
-        .pauseFor(2500)
         .start();
 
 </script>
